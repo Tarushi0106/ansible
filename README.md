@@ -56,13 +56,13 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
    ```bash
    docker-compose up -d
    ```
-![image](image1.jpg)
+
 
 2. Get initial admin password:
    ```bash
    docker-compose exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
    ```
-![image](image2.jpg)
+
 
 3. Access Jenkins:
    - Open browser and go to `http://localhost:8080`
@@ -95,8 +95,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
      - Enter branch specifier: `*/main`
      - Click "Save"
 ![image](image3.jpg)
-![image](image4.jpg)
-![image](image5.jpg)
+
 
 
 8. Install and Configure Docker in Jenkins Container:
@@ -110,9 +109,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
    # Verify Docker installation
    docker-compose exec jenkins docker --version
    ```
-![image](image6.png)
-![image](image7.png)
-![image](image8.png)
+
 
 9. Install Docker Plugins:
     - Go to "Manage Jenkins" > "Manage Plugins"
@@ -130,8 +127,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
       # Then verify Jenkins is running
       docker-compose ps
       ```
-![image](image9.png)
-![image](image10.png)
+
 
 10. Sign in to Jenkins:
     - Use the credentials you created in step 5
@@ -141,7 +137,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
     - Click "Build Now"
 
 ### Step 2: Testing the Executable
-
+![alt text](image-1.png)
 1. Download the executable from Jenkins:
    - Go to Jenkins dashboard
    - Click on `simple-python-pyinstaller-app`
