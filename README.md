@@ -137,7 +137,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
     - Click "Build Now"
 
 ### Step 2: Testing the Executable
-![alt text](image-1.png)
+![alt text](image-2.png)
 1. Download the executable from Jenkins:
    - Go to Jenkins dashboard
    - Click on `simple-python-pyinstaller-app`
@@ -146,7 +146,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
    - Click on `add2vals` to download it to your local machine
 
    Note: The executable downloaded from Jenkins will be a Linux version since Jenkins runs in a Linux container.
-![image](image.png)
+
 
 2. To run the Linux executable on Windows using WSL:
    ```bash
